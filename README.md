@@ -5,7 +5,7 @@ In the real world, data is rarely "clean." Marketing data, in particular, often 
 This project demonstrates a comprehensive Data Cleaning Pipeline using Python. I transformed a raw, "messy" marketing dataset into a high-quality, analysis-ready asset, ensuring that business decisions are based on accurate and standardized metrics.
 
 ## 🛠️ The Challenge: Why did this data need cleaning?
-The raw dataset (marketing_campaign_data_messy.csv) contained several critical issues that would mislead any analysis:
+The raw dataset  <a href="https://github.com/JayNguyenAachen/Cleaning-Data-with-Python---Marketing-Campaign-DataSet/blob/main/marketing_campaign_data_messy.csv">Click Here</a> contained several critical issues that would mislead any analysis:
 
 Structural Errors: Duplicate columns (e.g., two Clicks columns) and trailing spaces in headers.
 
@@ -18,7 +18,7 @@ Missing Values: Significant gaps in Campaign_Tag and other key metrics.
 Extreme Outliers: Statistical anomalies in the Spend column (values up to $500,000) that skewed the ROI calculations.
 
 ## ⚙️ Data Cleaning Workflow
-I implemented a structured cleaning process in the Clean_Marketing.ipynb notebook:
+I implemented a structured cleaning process in the Jupiter notebook  <a href="https://github.com/JayNguyenAachen/Cleaning-Data-with-Python---Marketing-Campaign-DataSet/blob/main/Clean_Marketing.ipynb">Click Here</a>
 
 ### 1. Robust Header Normalization
 Stripped leading/trailing whitespaces from column names.
